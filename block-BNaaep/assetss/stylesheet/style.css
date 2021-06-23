@@ -1,0 +1,487 @@
+ /* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+ 
+ html,
+ body,
+ div,
+ span,
+ applet,
+ object,
+ iframe,
+ h1,
+ h2,
+ h3,
+ h4,
+ h5,
+ h6,
+ p,
+ blockquote,
+ pre,
+ a,
+ abbr,
+ acronym,
+ address,
+ big,
+ cite,
+ code,
+ del,
+ dfn,
+ em,
+ img,
+ ins,
+ kbd,
+ q,
+ s,
+ samp,
+ small,
+ strike,
+ strong,
+ sub,
+ sup,
+ tt,
+ var,
+ b,
+ u,
+ i,
+ center,
+ dl,
+ dt,
+ dd,
+ ol,
+ ul,
+ li,
+ fieldset,
+ form,
+ label,
+ legend,
+ table,
+ caption,
+ tbody,
+ tfoot,
+ thead,
+ tr,
+ th,
+ td,
+ article,
+ aside,
+ canvas,
+ details,
+ embed,
+ figure,
+ figcaption,
+ footer,
+ header,
+ hgroup,
+ menu,
+ nav,
+ output,
+ ruby,
+ section,
+ summary,
+ time,
+ mark,
+ audio,
+ video {
+     margin: 0;
+     padding: 0;
+     border: 0;
+     font-size: 100%;
+     font: inherit;
+     vertical-align: baseline;
+ }
+ /* HTML5 display-role reset for older browsers */
+ 
+ article,
+ aside,
+ details,
+ figcaption,
+ figure,
+ footer,
+ header,
+ hgroup,
+ menu,
+ nav,
+ section {
+     display: block;
+ }
+ 
+ body {
+     line-height: 1;
+ }
+ 
+ ol,
+ ul {
+     list-style: none;
+ }
+ 
+ blockquote,
+ q {
+     quotes: none;
+ }
+ 
+ blockquote:before,
+ blockquote:after,
+ q:before,
+ q:after {
+     content: '';
+     content: none;
+ }
+ 
+ table {
+     border-collapse: collapse;
+     border-spacing: 0;
+ }
+ /* --------------------------------css reset ends here------------------------------------ */
+ 
+ *,
+ *::before,
+ *::after {
+     box-sizing: border-box;
+ }
+ 
+ body {
+     font-size: 18px;
+     font-family: 'Poppins', sans-serif;
+     line-height: 1.5;
+ }
+ 
+ .container {
+     max-width: 1300px;
+     margin: 0 auto;
+     padding: 0 32px;
+ }
+ 
+ .flex {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+ }
+ 
+ a {
+     text-decoration: none;
+     color: white;
+ }
+ /*----------------------------------- header ---------------------------------------*/
+ 
+ .header_bg {
+     background-image: url("../home-bg.jpg");
+     background-repeat: no-repeat;
+     background-size: cover;
+     height: 50px;
+ }
+ 
+ header {
+     background: linear-gradient(to right, rgba(4, 115, 241, 0.493), rgba(139, 242, 147, 0.479));
+     padding: 10px 0;
+ }
+ 
+ .hydro {
+     font-size: 30px;
+     font-weight: 700;
+ }
+ 
+ nav a {
+     margin-left: 30px;
+ }
+ 
+ .nav-2 i {
+     color: white;
+     font-size: 20px;
+     margin-left: 30px;
+ }
+ 
+ .nav-2 {
+     margin-left: 190px;
+ }
+ 
+ .signin {
+     background: rgb(207, 55, 50);
+     font-size: 15px;
+     padding: 10px 15px;
+     border-radius: 42px;
+ }
+ /* ----------------home--------------------- */
+ 
+ .home_bg {
+     background-image: url("../home-bg.jpg");
+     background-repeat: no-repeat;
+     background-size: cover;
+     margin-top: -50px;
+ }
+ 
+ .home {
+     background: linear-gradient(to right, rgba(4, 115, 241, 0.493), rgba(139, 242, 147, 0.479));
+     height: 910px;
+     padding-top: 300px;
+ }
+ 
+ .home h1 {
+     font-size: 52px;
+     font-weight: 700;
+     color: white;
+     margin-bottom: 30px;
+ }
+ 
+ .button p {
+     color: white;
+ }
+ 
+ .btn {
+     border: 1px solid white;
+     padding: 10px 25px;
+     border-radius: 42px;
+     margin-right: 28px;
+ }
+ 
+ .buttn {
+     display: flex;
+ }
+ 
+ .button {
+     display: inline-block;
+ }
+ /*--------------------------------- introduce------------------------------------ */
+ 
+ div .col-1 {
+     width: 30%;
+ }
+ 
+ .col-1 img {
+     width: 450px;
+ }
+ 
+ .col-1 h2 {
+     font-size: 37px;
+     margin-bottom: 10px;
+ }
+ 
+ .col-1 .fas {
+     color: gray;
+ }
+ 
+ .col-1 p {
+     color: gray;
+     font-size: 18px;
+     margin-top: 20px;
+ }
+ 
+ .col-1 li span {
+     display: inline-block;
+     width: 300px;
+     margin-top: 15px;
+ }
+ 
+ .col-1 li hr {
+     float: left;
+     border: 2px solid black
+ }
+ 
+ .hr_85 {
+     width: 75%;
+ }
+ 
+ .hr_75 {
+     width: 65%;
+ }
+ 
+ .hr_70 {
+     width: 60%;
+ }
+ 
+ .hr_90 {
+     width: 80%;
+ }
+ /* ------------------------------------our blog --------------------------------*/
+ 
+ .our-blog {
+     background-color: rgb(239, 239, 239);
+     padding: 5% 0;
+ }
+ 
+ .blog h2 {
+     font-size: 35px;
+     text-align: center;
+ }
+ 
+ .blog .icon {
+     text-align: center;
+ }
+ 
+ .blog .icon .fas {
+     color: gray;
+ }
+ 
+ .blogposts {
+     background-color: white;
+     color: gray;
+     display: flex;
+     margin-right: 30px;
+     margin-top: 40px;
+     width: 49%;
+ }
+ 
+ .blogposts img {
+     width: 200px;
+ }
+ 
+ .blogposts h6 i,
+ .blogposts h6 {
+     color: red;
+     font-size: 12px;
+     margin-top: 23px;
+ }
+ 
+ .blogposts h3 {
+     color: black;
+     font-size: 25px;
+     margin-bottom: 40px;
+ }
+ 
+ .blogposts h3,
+ .blogposts p {
+     margin-top: 22px;
+ }
+ 
+ .blogposts p {
+     margin-bottom: 40px;
+ }
+ 
+ .blog-intro {
+     padding-left: 20px;
+ }
+ 
+ .blog .butn {
+     background-color: rgb(239, 239, 239);
+     color: gray;
+     padding: 15px 15px;
+     border-radius: 42px;
+     margin-right: 28px;
+ }
+ 
+ .butn-1 {
+     margin-top: 40px;
+ }
+ /*----------------------------- our work------------------------- */
+ 
+ .our-work {
+     padding: 6% 0;
+ }
+ 
+ .work-heading {
+     text-align: center;
+     font-size: 35px;
+ }
+ 
+ .icon {
+     text-align: center;
+     color: rgb(216, 216, 216);
+     margin-bottom: 40px;
+ }
+ 
+ .flex img {
+     width: 290px;
+     /* margin-bottom: 30px; */
+ }
+ /* -----------------------------contact-------------------------- */
+ 
+ .contact {
+     padding: 7% 0;
+     background: linear-gradient(to right, rgb(18, 119, 228), rgb(124, 239, 102));
+ }
+ 
+ .contact h2 {
+     color: white;
+     font-size: 35px;
+ }
+ 
+ .contact-form {
+     width: 49%;
+ }
+ 
+ .first-div .form {
+     width: 49%;
+     height: 50px;
+     border-radius: 8px;
+ }
+ 
+ .first-div {
+     margin: 3% 2% 3% 0;
+ }
+ 
+ textarea {
+     width: 96.5%;
+     border-radius: 8px;
+ }
+ 
+ .iframe iframe {
+     width: 350px;
+     height: 350px;
+     border-radius: 50%;
+ }
+ 
+ .button-2 {
+     background-color: rgb(207, 55, 50);
+     padding: 15px 25px;
+     color: white;
+     border-radius: 42px;
+     margin-right: 28px;
+     font-size: 12px;
+ }
+ /*-------------------------------- information ------------------------------*/
+ 
+ .information {
+     padding: 5% 0;
+     background: linear-gradient(to right, rgb(65, 65, 65), rgb(1, 1, 1));
+ }
+ 
+ .col-5 {
+     width: 22%;
+     height: 250px;
+ }
+ 
+ .col-5 p {
+     line-height: 2;
+ }
+ 
+ .col-5 a {
+     display: flex;
+     flex-direction: column;
+     line-height: 2;
+ }
+ 
+ .col-5 nav i {
+     margin-right: 25px;
+     padding-top: 30px;
+     font-size: 20px;
+ }
+ 
+ .col-5 h3 {
+     /* color: white; */
+     padding: 30px 0;
+     font-size: 30px;
+     font-weight: 600;
+ }
+ 
+ .foot a {
+     margin-left: 30%;
+ }
+ 
+ .foot nav i {
+     margin-left: 30px;
+ }
+ 
+ .foot {
+     text-align: center;
+     padding: 30px 0;
+ }
+ 
+ footer hr {
+     background-color: gray;
+ }
+ 
+ footer {
+     background: linear-gradient(to right, rgb(65, 65, 65), rgb(1, 1, 1));
+     color: white;
+ }
